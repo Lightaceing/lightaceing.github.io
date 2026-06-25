@@ -1,0 +1,25 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 600px; */
+  height: auto;
+  padding: 40px;
+  border-radius: 12px;
+  background-color: #faf9f6;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  color: black;
+  transition: box-shadow 0.3s;
+}
+
+.we-description {
+  font-family: "Mozilla Text", sans-serif;
+  font-size: medium;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.center-container {
+
+height: 100vh;
+}

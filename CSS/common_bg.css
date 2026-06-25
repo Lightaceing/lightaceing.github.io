@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 80vh;
+
+  background: linear-gradient(135deg, #a3526a, #1e293b, #0f172a);
+
+  background-size: 400% 400%;
+
+  animation: gradient 12s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.center-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+  background-color: #faf9f6;
+}
+
+.top-bar {
+  /* To stay at top */
+  background: #fff;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  width: 100%;
+
+  /* Flex Box */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /*Give space between items*/
+  /*| |NAME|                   |Buttons=nav-bar|  | */
+
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/*makes buttons seemless */
+.top-bar button {
+  background: #fff;
+  border: none;
+  cursor: pointer;
+
+  width: auto;
+}
+
+.top-bar a {
+  padding: 16px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Mozilla Text", sans-serif;
+  font-size: medium;
+  color: #4a8fe7;
+}
+
+/* content on left, icons on right */
+.nav-buttons {
+  justify-content: space-between; /*First item to left, last item to right*/
+  gap: 5px;
+}
+
+.resume_icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+.name {
+  font-family: "Mozilla Text", sans-serif;
+  color: #4a8fe7;
+  justify-content: space-between;
+  font-size: 2rem;
+  padding-left: 12px;
+  font-weight: 100;
+}
