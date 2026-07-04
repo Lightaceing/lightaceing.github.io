@@ -3,7 +3,7 @@ class TabBar extends HTMLElement {
     this.innerHTML = `
         <!-- top bar -->
     <div class="top-bar">
-      <span class="name"> Tanveer Ahmed Khan - System Engineer</span>
+      <span class="name"> Tanveer Ahmed Khan - System Engineer | Machine Learning Engineer</span>
       <div class="nav-buttons">
         <button>
           <a href="mailto:tanveer.akhan.work@gmail.com" style="text-decoration: none">Email Me</a>
