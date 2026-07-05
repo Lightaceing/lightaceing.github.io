@@ -1,0 +1,10 @@
+.project-list {
+  margin-top: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.center-container {
+  height: 100;
+}

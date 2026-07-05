@@ -52,3 +52,26 @@
   margin-top: 5px;
   margin-bottom: 25px;
 }
+
+.back-to-top {
+  position: fixed; /* stays visible as you scroll */
+  bottom: 80px; /* above your bottom bar */
+  right: 24px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+
+  /* Match your glass style */
+  background: rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+
+  transition: background 0.3s;
+}
+
+.back-to-top hover {
+  background: #d6ec74;
+}
