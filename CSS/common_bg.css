@@ -37,8 +37,6 @@ body {
   flex-direction: column;
 }
 
-
-
 .top-bar {
   /* To stay at top */
   background: #fff;
@@ -94,7 +92,6 @@ body {
   padding-left: 12px;
   font-weight: 300;
 }
-
 
 html {
   scroll-behavior: smooth;
